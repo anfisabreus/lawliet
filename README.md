@@ -9,4 +9,4 @@ Here you can see how it looks - Demo website - [Lawliet landing](https://lawliet
 
 This site was built using HTML, CSS, Bootstrap, Javascript, jQuery
 
-![example workflow](https://github.com/anfisabreus/wildbirds/workflows/Lint%20Code%20Base/badge.svg)
+![example workflow](https://github.com/anfisabreus/lawliet/workflows/Lint%20Code%20Base/badge.svg)
