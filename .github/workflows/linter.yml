@@ -6,7 +6,7 @@ on:
   push:
     # Игнорирование ветки `master`
     branches-ignore:
-      - 'master'
+      - "master"
 # Задачи к выполнению
 jobs:
   # Задача

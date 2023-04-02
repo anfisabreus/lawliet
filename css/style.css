@@ -4,54 +4,56 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
 }
+
 .nav-link {
+  padding-top: 15px;
   font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
   font-size: 12px;
   line-height: 23px;
   letter-spacing: 1.5px;
+  text-transform: uppercase;
   color: #2d2f30;
-  padding-top: 15px;
 }
 
 .search-icon img {
   padding-top: 10px;
 }
+
 .collapse-horizontal {
   position: absolute;
-  width: 300px;
   top: 50px;
+  width: 300px;
 }
 
 .hero-bg {
   position: absolute;
+  right: 100px;
+  z-index: 0;
   padding-top: 100%;
   width: 100%;
   background-image: url(../img/hero-bg.png);
-  background-repeat: no-repeat;
   background-position: top right;
-  z-index: 0;
-  background-size: contain;
-  right: 100px;
   background-size: 50%;
+  background-repeat: no-repeat;
 }
+
 .hero-left {
   padding-top: 5em;
 }
 
 .action-bg {
-  background: #e7f6ff;
   border-radius: 50px;
   font-size: 14px;
+  background: #e7f6ff;
 }
 
 .action-bg .action-lable {
   border-radius: 50px;
   padding: 5px 10px;
+  color: #ffffff;
   background: #094b72;
-  color: #fff;
 }
 
 .action-bg .action-sentence {
@@ -63,33 +65,31 @@ body {
 }
 
 .hero-heading {
-  color: #094b72;
   font-family: "Playfair Display", serif;
-  font-size: 90px;
   font-weight: 700;
+  font-size: 90px;
   line-height: 120%;
+  color: #094b72;
 }
 
 .hero-desc {
-  color: #4f4f4f;
   font-size: 24px;
-  letter-spacing: 0.5px;
   line-height: 158%;
+  color: #4f4f4f;
 }
 
 .hero-button {
-  width: 190px;
-  background: #094b72;
   border-radius: 8px;
+  width: 190px;
   color: #f9f8f9;
+  background: #094b72;
 }
 
 .hero-companies {
+  font-weight: 300;
   font-size: 22px;
   line-height: 140.5%;
-  letter-spacing: 0.04em;
   color: #8b8c8c;
-  font-weight: 300;
 }
 
 .image-hero {
@@ -98,145 +98,147 @@ body {
 }
 
 .image-text {
-  background: #ffffff;
-  border-radius: 10px;
-  filter: drop-shadow(0px 39px 100px rgba(25, 62, 108, 0.12));
-  max-width: 380px;
-  margin: 0 auto;
   position: absolute;
-  bottom: -30px;
   left: 0;
   right: 30px;
+  bottom: -30px;
+  margin: 0 auto;
+  border-radius: 10px;
+  max-width: 380px;
+  background: #ffffff;
+  filter: drop-shadow(0 39px 100px rgb(25 62 108 / 1%));
 }
 
 .image-name {
-  color: #33475b;
   font-weight: 700;
   font-size: 24px;
+  color: #33475b;
 }
+
 .image-desc {
-  color: #87898c;
   font-weight: 500;
   font-size: 16px;
+  color: #87898c;
 }
+
 .about {
   position: relative;
-  top: 0px;
+  top: 0;
   z-index: 0;
+  padding: 103px 0 87px;
   background: #f2f7ff;
-  padding: 103px 0 87px 0;
 }
 
 .about-title {
-  font-family: "Playfair Display";
-  font-style: normal;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
+  font-style: normal;
   font-size: 48px;
   line-height: 64px;
-  letter-spacing: 0.323077px;
   color: #2d2f30;
 }
 
 .about-desc {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
+  font-style: normal;
   font-size: 20px;
   line-height: 36px;
-  letter-spacing: 0.5px;
   color: #8b8c8c;
 }
+
 .about-blocks {
   gap: 30px;
 }
 
 .block {
   flex: 1 1 40%;
-  padding: 24px;
-
-  background: #fcfcfc;
-  box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
   border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 18px 58px 16px rgb(0 0 0 / 6%);
+  background: #fcfcfc;
 }
 
 .block-header {
   padding: 20px 0;
-  font-family: "Playfair Display";
-  font-style: normal;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
+  font-style: normal;
   font-size: 22px;
   line-height: 22px;
-  letter-spacing: 0.5px;
   color: #363940;
 }
 
 .block-desc {
-  font-size: 14px;
   font-weight: 300;
+  font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.3px;
   color: #8b8c8c;
 }
+
 .count {
   position: relative;
   background: #094b72;
 }
 
-.count:after {
+.count::after {
   content: "";
   position: absolute;
   top: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
   background: url(../img/pattern-bg.png);
 }
+
 .count-numbers {
-  width: 940px;
   margin: 0 auto;
+  width: 940px;
 }
+
 .count-block {
   flex: 1;
-  border-right: 1px solid #fff;
+  border-right: 1px solid #ffffff;
 }
+
 .count-block:last-child {
   border-right: none;
 }
+
 .count-title {
-  font-family: "Playfair Display";
-  font-style: normal;
+  padding-bottom: 5px;
+  font-family: "Playfair Display", serif;
   font-weight: 900;
+  font-style: normal;
   font-size: 48px;
   line-height: 64px;
   text-align: center;
   color: #ffffff;
-  padding-bottom: 5px;
 }
 
 .count-desc {
-  font-family: "Poppins";
-  font-style: normal;
+  padding-bottom: 48px;
+  font-family: "Poppins", serif;
   font-weight: 300;
+  font-style: normal;
   font-size: 18px;
   line-height: 32px;
   text-align: center;
-  letter-spacing: 0.5px;
   color: #ffffff;
-  padding-bottom: 48px;
 }
 
 .counter-blog-number {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", serif;
   font-weight: 800;
+  font-style: normal;
   font-size: 48px;
   line-height: 64px;
   color: #ffffff;
 }
 
 .count-block-desc {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", serif;
   font-weight: 300;
+  font-style: normal;
   font-size: 18px;
   line-height: 32px;
   text-align: center;
@@ -246,10 +248,11 @@ body {
 .testimonials {
   background-color: #f2f7ff;
 }
+
 .testimonial-title {
-  font-family: "Playfair Display";
-  font-style: normal;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
+  font-style: normal;
   font-size: 48px;
   line-height: 64px;
   color: #2d2f30;
@@ -258,139 +261,144 @@ body {
 .testimonial-item-box {
   position: relative;
   border-radius: 10px;
-  background: #fff;
-  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  box-shadow: 0 10px 20px rgb(41 41 42 / 7%);
+  background: #ffffff;
 }
-.testimonial-item-box:after {
+
+.testimonial-item-box::after {
   content: "";
   position: absolute;
-
-  bottom: -10px;
-
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-
-  border-top: 10px solid #fff;
-  margin: 0 auto;
   left: 0;
   right: 0;
+  bottom: -10px;
+  margin: 0 auto;
+  border-top: 10px solid #ffffff;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  width: 0;
+  height: 0;
 }
+
 .testimonial-item-title {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", serif;
   font-weight: 500;
+  font-style: normal;
   font-size: 18px;
   line-height: 28px;
   color: #151617;
 }
+
 .testimonial-item-text {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", serif;
   font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 24px;
   color: #4f4f4f;
 }
+
 .testimonial-author-image img {
   border-radius: 50%;
 }
+
 .testimonial-author-name {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", serif;
   font-weight: 500;
+  font-style: normal;
   font-size: 16px;
   line-height: 28px;
   color: #151617;
 }
 
 .testimonial-author-prof {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", serif;
   font-weight: 300;
+  font-style: normal;
   font-size: 14px;
   line-height: 24px;
   color: #2d2f30;
 }
+
 .callnow-title {
-  font-family: "Playfair Display";
-  font-style: normal;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
+  font-style: normal;
   font-size: 48px;
   line-height: 64px;
   color: #2d2f30;
 }
+
 .callnow-desc {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", serif;
   font-weight: 300;
+  font-style: normal;
   font-size: 24px;
   line-height: 36px;
   color: #4f4f4f;
 }
+
 .callnow-button button {
-  background: #094b72;
   border-color: #094b72;
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", serif;
   font-weight: 500;
+  font-style: normal;
   font-size: 22px;
   line-height: 36px;
   color: #f9f8f9;
+  background: #094b72;
 }
 
 .footer {
-  background: #094B72;
-}
-
-.footer {
-  color: #fff;
+  color: #ffffff;
+  background: #094b72;
 }
 
 .menu-title {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", serif;
   font-weight: 500;
+  font-style: normal;
   font-size: 20px;
   line-height: 30px;
   color: #f4f5f7;
 }
+
 .menu-list {
   list-style: none;
   padding-left: 0;
 }
+
 .menu-list li {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", serif;
   font-weight: 300;
+  font-style: normal;
   font-size: 16px;
   line-height: 26px;
   color: #eeeff4;
 }
+
 .footer-left img {
   max-width: 130px;
 }
 
 .copyright {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 24px;
-
-color: #D9DBE1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
 }
 
 .copyright-section {
-background: #004D7B;
+  background: #004d7b;
 }
 
 @media only screen and (max-width: 1400px) {
   .hero-bg {
-    right: 0px;
+    right: 0;
     background-size: 60%;
   }
+
   .hero-middle {
     display: none;
   }
@@ -404,6 +412,7 @@ background: #004D7B;
   .hero-heading {
     font-size: 60px;
   }
+
   .hero-desc {
     font-size: 24px;
   }
@@ -413,9 +422,11 @@ background: #004D7B;
   .hero-heading {
     font-size: 50px;
   }
+
   .image-hero img {
     max-width: 400px;
   }
+
   .image-hero {
     margin-left: -100px;
   }
@@ -425,12 +436,12 @@ background: #004D7B;
   }
 
   .hero-left {
-    padding-top: 0em;
+    padding-top: 0;
   }
 
   .count-numbers {
-    width: 100%;
     margin: 0 auto;
+    width: 100%;
   }
 }
 
@@ -439,9 +450,11 @@ background: #004D7B;
   .hero-bg {
     display: none;
   }
+
   .hero-heading {
     font-size: 44px;
   }
+
   .about-title,
   .count-title,
   .testimonial-title,
@@ -454,14 +467,17 @@ background: #004D7B;
   .counter-blog-number {
     font-size: 40px;
   }
+
   .count-desc,
   .count-block-desc {
     font-size: 16px;
     line-height: 20px;
   }
+
   .callnow-right {
     display: none;
   }
+
   .callnow-desc,
   .about-desc,
   .hero-companies,
