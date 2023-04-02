@@ -7,7 +7,7 @@ body {
 
 .nav-link {
   padding-top: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -52,7 +52,7 @@ body {
 .action-bg .action-lable {
   border-radius: 50px;
   padding: 5px 10px;
-  color: #ffffff;
+  color: #fff;
   background: #094b72;
 }
 
@@ -105,7 +105,7 @@ body {
   margin: 0 auto;
   border-radius: 10px;
   max-width: 380px;
-  background: #ffffff;
+  background: #fff;
   filter: drop-shadow(0 39px 100px rgb(25 62 108 / 1%));
 }
 
@@ -139,7 +139,7 @@ body {
 }
 
 .about-desc {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 20px;
@@ -197,7 +197,7 @@ body {
 
 .count-block {
   flex: 1;
-  border-right: 1px solid #ffffff;
+  border-right: 1px solid #fff;
 }
 
 .count-block:last-child {
@@ -212,37 +212,37 @@ body {
   font-size: 48px;
   line-height: 64px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .count-desc {
   padding-bottom: 48px;
-  font-family: "Poppins", serif;
+  font-family: Poppins, serif;
   font-weight: 300;
   font-style: normal;
   font-size: 18px;
   line-height: 32px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .counter-blog-number {
-  font-family: "Poppins", serif;
+  font-family: Poppins, serif;
   font-weight: 800;
   font-style: normal;
   font-size: 48px;
   line-height: 64px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .count-block-desc {
-  font-family: "Poppins", serif;
+  font-family: Poppins, serif;
   font-weight: 300;
   font-style: normal;
   font-size: 18px;
   line-height: 32px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .testimonials {
@@ -262,7 +262,7 @@ body {
   position: relative;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgb(41 41 42 / 7%);
-  background: #ffffff;
+  background: #fff;
 }
 
 .testimonial-item-box::after {
@@ -272,7 +272,7 @@ body {
   right: 0;
   bottom: -10px;
   margin: 0 auto;
-  border-top: 10px solid #ffffff;
+  border-top: 10px solid #fff;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
   width: 0;
@@ -280,7 +280,7 @@ body {
 }
 
 .testimonial-item-title {
-  font-family: "Poppins", serif;
+  font-family: Poppins, serif;
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
@@ -289,7 +289,7 @@ body {
 }
 
 .testimonial-item-text {
-  font-family: "Poppins", serif;
+  font-family: Poppins, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -302,7 +302,7 @@ body {
 }
 
 .testimonial-author-name {
-  font-family: "Poppins", serif;
+  font-family: Poppins, serif;
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
@@ -311,7 +311,7 @@ body {
 }
 
 .testimonial-author-prof {
-  font-family: "Poppins", serif;
+  font-family: Poppins, serif;
   font-weight: 300;
   font-style: normal;
   font-size: 14px;
@@ -329,7 +329,7 @@ body {
 }
 
 .callnow-desc {
-  font-family: "Poppins", serif;
+  font-family: Poppins, serif;
   font-weight: 300;
   font-style: normal;
   font-size: 24px;
@@ -339,7 +339,7 @@ body {
 
 .callnow-button button {
   border-color: #094b72;
-  font-family: "Poppins", serif;
+  font-family: Poppins, serif;
   font-weight: 500;
   font-style: normal;
   font-size: 22px;
@@ -349,12 +349,12 @@ body {
 }
 
 .footer {
-  color: #ffffff;
+  color: #fff;
   background: #094b72;
 }
 
 .menu-title {
-  font-family: "Poppins", serif;
+  font-family: Poppins, serif;
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
@@ -368,7 +368,7 @@ body {
 }
 
 .menu-list li {
-  font-family: "Poppins", serif;
+  font-family: Poppins, serif;
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
@@ -381,7 +381,7 @@ body {
 }
 
 .copyright {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 14px;
