@@ -8,15 +8,15 @@
   "extends": "stylelint-config-standard",
 
   "rules": {
+"import-notation": "url",
 
-
-
-
+	"font-family-name-quotes": "always-where-recommended",
+		"function-name-case": "lower",
+		"function-url-quotes": "always",
+		"hue-degree-notation": "angle",
 		"media-feature-name-no-unknown": true,
 		"media-feature-name-no-vendor-prefix": true,
-    "function-url-quotes": null,
     "color-hex-length": "short",
-    "font-family-name-quotes": null,
     "max-nesting-depth": 2,
 		"order/order": [
 			"custom-properties",
@@ -468,12 +468,8 @@
 				"unspecified": "bottomAlphabetical"
 			}
 		]
-  },
-	"font-family-name-quotes": "always-where-recommended",
-		"function-name-case": "lower",
-		"function-url-quotes": "always",
-		"hue-degree-notation": "angle",
-		"import-notation": "url"
+  }
+
 		}
 
 
